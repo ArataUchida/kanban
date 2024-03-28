@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="container">
-  <h1>リスト作成</h1>
+  <h1>カード作成</h1>
   <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
@@ -10,6 +10,3 @@
   </form>
 </div>
 {% endblock %}
-
-
-
